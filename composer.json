@@ -1,0 +1,25 @@
+{
+    "name": "zhetenov/repository",
+    "description": "Easy way to create repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhetenov Ralan",
+            "email": "rollwho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zhetenov\\Repository\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhetenov\\Repository\\RepositoryServiceProvider"
+            ]
+        }
+    }
+}

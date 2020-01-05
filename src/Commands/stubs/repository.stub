@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use Zhetenov\Repository\BaseRepository;
+
+class DummyClass extends BaseRepository implements DummyInterface
+{
+    /**
+     * Returns current model.
+     *
+     * @return string
+     */
+    protected function getModelClass(): string
+    {
+        return '';
+    }
+}
